@@ -39,7 +39,7 @@ def guessing_game(left_bound=1, right_bound=100, max_attempts=5):
     attempts = 0
     guess = None
     print(f"Guess a Number Between {left_bound} and {right_bound}.")
-    print(f"You have {max_attempts} attampts.\n")
+    print(f"You have {max_attempts} attempts.\n")
     while guess != num_of_guess:
         if attempts < max_attempts:
             try:
@@ -50,7 +50,7 @@ def guessing_game(left_bound=1, right_bound=100, max_attempts=5):
                 elif guess > num_of_guess:
                     print(f"Too high!\n")
                 attempts += 1
-                print(f"{max_attempts - attempts} Attampts Left.\n")
+                print(f"{max_attempts - attempts} Attempts Left.\n")
 
             except ValueError:
                 print(f"Invalid input please enter a number.")
