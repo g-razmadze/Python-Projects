@@ -1,6 +1,6 @@
 """Countdown timer!
 
-   Author: Giorgi Razmadze & 
+   Author: Giorgi Razmadze
    Date: October 24, 2023
 
    This is one of my projects
