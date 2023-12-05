@@ -35,4 +35,4 @@ try:
     user = int(input("Enter the time in seconds: \n"))
     countdown(user)
 except ValueError:
-    print("Invalid input. Please enter a valid number of seconds.\n")ou
+    print("Invalid input. Please enter a valid number of seconds.\n")
